@@ -1,0 +1,15 @@
+# Template file for 'lldb-mi'
+pkgname=lldb-mi
+version=0.1.0
+revision=1
+_version=6257b475e30b50764e2dc98e51b3f1a217c13914
+wrksrc="${pkgname}-${_version}"
+build_style=cmake
+hostmakedepends="llvm clang-tools-extra"
+makedepends="lldb-devel"
+short_desc="LLDB’s machine interface driver"
+maintainer="Issam E. Maghni <issam.e.maghni@mailbox.org>"
+license="Apache-2.0"
+homepage="https://github.com/lldb-tools/lldb-mi"
+distfiles="https://github.com/lldb-tools/lldb-mi/archive/${_version}.tar.gz"
+checksum=e8c6685e5c82b12d76ce921f8a22475eedc46b01e7d4f6c4d1ae7a489671842c
