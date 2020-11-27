@@ -1,0 +1,21 @@
+# Template file for 'themis'
+pkgname=themis
+version=0.13.6
+revision=1
+#wrksrc=
+#create_wrksrc=yes
+build_style=gnu-makefile
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends=""
+makedepends=""
+depends=""
+short_desc="Cryptographic framework for data protection"
+maintainer="Issam E. Maghni <issam.e.maghni@mailbox.org>"
+license="Apache-2.0"
+homepage="https://www.cossacklabs.com/themis/"
+distfiles="https://github.com/cossacklabs/themis/archive/${version}.tar.gz"
+checksum=9035eb3ffcbe3d2014989f6275ce8fcaf7cd17a4bbc2c59bd884fb82c92558e2
