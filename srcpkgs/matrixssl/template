@@ -1,0 +1,14 @@
+# Template file for 'matrixssl'
+pkgname=matrixssl
+version=4.3.0
+_version=4-3-0
+revision=1
+wrksrc="${pkgname}-${_version}-open"
+build_style=gnu-makefile
+make_build_args="CCARCH=$XBPS_TARGET_MACHINE"
+short_desc="Lightweight Embedded SSL/TLS Implementation for IoT Devices"
+maintainer="Issam E. Maghni <issam.e.maghni@mailbox.org>"
+license="GPL-3.0-or-later"
+homepage="http://matrixssl.org"
+distfiles="https://github.com/matrixssl/matrixssl/archive/${_version}-open.tar.gz"
+checksum=79bffbde24fd0551d5b3d6d58df81d08d8857170884e84bed5aaabb015cb1bc1
