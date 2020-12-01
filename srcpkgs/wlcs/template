@@ -1,0 +1,14 @@
+# Template file for 'wlcs'
+pkgname=wlcs
+version=1.2.0
+revision=1
+build_style=cmake
+hostmakedepends="pkg-config"
+makedepends="boost-devel gtest-devel wayland-devel"
+depends=""
+short_desc="Test suite usable by Wayland compositor implementors"
+maintainer="Issam E. Maghni <issam.e.maghni@mailbox.org>"
+license="GPL-3.0-or-later"
+homepage="https://github.com/MirServer/wlcs"
+distfiles="https://github.com/MirServer/wlcs/archive/v${version}.tar.gz"
+checksum=b651f3445783ebe359ac98b45e747b67f21cacc5a38fb7b4375734de9d11bcd8

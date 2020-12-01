@@ -1,0 +1,17 @@
+# Template file for 'mir'
+pkgname=mir
+version=2.2.0
+revision=1
+build_style=cmake
+#configure_args=""
+#make_build_args=""
+#make_install_args=""
+hostmakedepends="pkg-config"
+makedepends="boost-devel capnproto-devel glm libglvnd-devel protobuf-devel"
+depends=""
+short_desc="Set of libraries for building Wayland based shells"
+maintainer="Issam E. Maghni <issam.e.maghni@mailbox.org>"
+license="GPL-2.0-or-later"
+homepage="https://github.com/MirServer/mir"
+distfiles="https://github.com/MirServer/mir/archive/v${version}.tar.gz"
+checksum=db07da960ae5391e75907c40183aa7585f344f00ed5d9ad00c82d27f5bd5b102
